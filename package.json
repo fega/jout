@@ -1,0 +1,36 @@
+{
+  "name": "jout",
+  "version": "1.0.0",
+  "description": "Pretty print json in stout",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "json",
+    "pretty",
+    "cli"
+  ],
+  "author": "Fabian Gutierrez",
+  "license": "ISC",
+  "dependencies": {
+    "jsome": "^2.3.26"
+  },
+  "devDependencies": {
+    "eslint": "^4.6.0",
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-plugin-import": "^2.7.0",
+    "mocha": "^3.5.0"
+  },
+  "bin": {
+    "jout": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fega/jout.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fega/jout/issues"
+  },
+  "homepage": "https://github.com/fega/jout#readme"
+}
